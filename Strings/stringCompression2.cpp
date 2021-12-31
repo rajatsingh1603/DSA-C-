@@ -5,7 +5,7 @@ void compress(string s){
     string ans;
     for(int i =0; i<n; i++){
         int count = 1;
-        while(i<n && s[i+1] == s[i]){
+        while(s[i+1] == s[i]){
             count++;
             i++;
         }
